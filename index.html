@@ -1,119 +1,196 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wagner Prestrelo</title>
-    <meta name="description" content="Currículo/Portfolio de Wagner Prestrelo">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wagner Prestrelo</title>
+  <meta name="description" content="Currículo/Portfolio de Wagner Prestrelo">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header class="header">
-        <img src="./img/marca.svg" alt="Wagner Prestrelo" width="373" height="46">
-        <nav>
-            <ul class="header-menu">
-                <li><a href="#experiencia">Experiência</a></li>
-                <li><a href="#formacao">Formação</a></li>
-                <li><a href="#contato">Contato</a></li>
+  <header class="header">
+    <img src="./img/marca.svg" alt="Wagner Prestrelo" width="373" height="46">
+    <nav>
+      <ul class="header-menu">
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="introducao">
+    <img src="./img/perfil.jpg" alt="Foto de perfil" width="360" height="520">
+    <div>
+      <h1>Desenvolvedor<br>Front End Jr.</h1>
+      <p>São Paulo - SP</p>
+    </div>
+  </main>
+
+  <section class="projetos" id="projetos" aria-label="Projetos">
+    <div class="projetos-container">
+      <h2 class="subtitulo">Projetos</h2>
+      <div>
+        <p class="projetos-texto">Conheça alguns projetos que produzi durantes meus estudos acessando o meu perfil no <a
+            href="https://github.com/wagnerprestrelo" target="_blank">GitHub</a> e no <a
+            href="https://codepen.io/wagnerprestrelo" target="_blank">CodePen</a>.
+        </p>
+
+        <div class="projeto">
+          <h2 class="projeto-titulo"><a href="https://wagnerprestrelo.github.io/bikcraft/" target="_blank">BikCraft</a>
+          </h2>
+          <span class="projeto-titulo">Origamid</span>
+          <div>
+            <p class="projeto-descricao">Site fictício de uma empresa de bicicletas elétricas, feito durante um dos curso da Origamid.</p>
+            <a href="https://github.com/wagnerprestrelo/bikcraft" target="_blank">Código</a>
+          </div>
+          <ul class="projeto-utilizados">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git</li>
+          </ul>
+        </div>
+
+        <div class="projeto">
+          <h2 class="projeto-titulo">Portfolio</h2>
+          <span class="projeto-titulo">Origamid</span>
+          <div>
+            <p class="projeto-descricao">Este portfolio. Feito durante um dos cursos da Origamid.</p>
+            <a href="https://github.com/wagnerprestrelo/wagnerprestrelo.github.io" target="_blank">Código</a>
+          </div>
+          <ul class="projeto-utilizados">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git</li>
+          </ul>
+        </div>
+
+        <div class="projeto">
+          <h2 class="projeto-titulo"><a href="https://codepen.io/wagnerprestrelo/full/abVgKWe" target="_blank">Mentalista</a></h2>
+          <span class="projeto-titulo">Alura - Imersão Dev</span>
+          <div>
+            <p class="projeto-descricao">Randomiza um número de 0 a 10 e dá 3 chances para tentar adivinhar o número escolhido. Foi feito durante o evento Imersão Dev da Alura.</p>
+            <a href="https://codepen.io/wagnerprestrelo/pen/abVgKWe" target="_blank">Código</a>
+          </div>
+          <ul class="projeto-utilizados">
+            <li>JavaScript</li>
+          </ul>
+        </div>
+
+        <div class="projeto">
+          <h2 class="projeto-titulo"><a href="https://codepen.io/wagnerprestrelo/full/ExQwYxX" target="_blank">Par ou Ímpar</a></h2>
+          <span class="projeto-titulo">Prática</span>
+          <div>
+            <p class="projeto-descricao">Par ou ímpar utilizando JavaScript, foi feito por conta própria para colocar em prática os conhecimentos.</p>
+            <a href="https://codepen.io/wagnerprestrelo/pen/ExQwYxX" target="_blank">Código</a>
+          </div>
+          <ul class="projeto-utilizados">
+            <li>JavaScript</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="experiencia" id="experiencia" aria-label="Experiência">
+    <div class="experiencia-container">
+      <h2 class="subtitulo">Experiência</h2>
+      <div>
+        <p class="experiencia-texto">Estudante de desenvolvimento front-end, utilizando <strong>HTML</strong>,
+          <strong>CSS</strong> e <strong>JavaScript</strong>.
+        </p>
+
+        <div class="empresa">
+          <span class="empresa-ano">2010-2014</span>
+          <h3 class="empresa-titulo">Professor de Inglês</h3>
+          <span class="empresa-titulo">Autônomo</span>
+          <p class="empresa-texto">Aulas particulares de reforço e conversação. Alunos em sua maioria de Ensino Médio ou
+            Superior.</p>
+          <ul class="empresa-habilidades">
+            <li>Idiomas</li>
+            <li>Inglês</li>
+          </ul>
+        </div>
+
+        <div class="empresa">
+          <span class="empresa-ano">2015-2017</span>
+          <h3 class="empresa-titulo">Técnico de Informática</h3>
+          <span class="empresa-titulo">Autônomo</span>
+          <p class="empresa-texto">Formatação e instalação de SO, backup de dados e instalação de programas.</p>
+          <ul class="empresa-habilidades">
+            <li>Software</li>
+            <li>Informática</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="formacao" id="formacao" aria-label="Formação">
+    <div class="formacao-container">
+      <h2 class="subtitulo">Formação</h2>
+      <div>
+        <p class="formacao-texto">
+          Formado e pós-graduado na área de <strong>Desenvolvimento de Jogos Digitais</strong>, no momento estou em
+          transição de carreira para a área de <strong>Front-End</strong>.
+        </p>
+
+        <ul class="faculdade-lista">
+          <li class="faculdade">
+            <span class="faculdade-tipo">Tecnólogo</span>
+            <h3 class="faculdade-curso">Tecnologia em Jogos Digitais</h3>
+            <span class="faculdade-instituicao">Universidade Católica de Pernambuco</span>
+          </li>
+
+          <li class="faculdade">
+            <span class="faculdade-tipo">Especialista</span>
+            <h3 class="faculdade-curso">Especialização em Desenvolvimento de Games</h3>
+            <span class="faculdade-instituicao">Universidade Anhembi Morumbi</span>
+          </li>
+        </ul>
+
+        <div class="formacao-extra">
+          <div class="cursos">
+            <h3>Outros Cursos</h3>
+            <ul>
+              <li>HTML e CSS para Iniciantes - Origamid <span>46h</span></li>
+              <li>Imersão Dev - Alura <span>12h</span></li>
+              <li>Lógica de Programação - SENAC <span>40h</span></li>
+              <li>Desenvolvimento Web <span>Cursando</span></li>
             </ul>
-        </nav>
-    </header>
+          </div>
 
-    <main class="introducao">
-        <img src="./img/perfil.jpg" alt="Foto de perfil" width="360" height="520">
-        <div>
-            <h1>Desenvolvedor<br>Front End Jr.</h1>
-            <p>São Paulo - SP</p>
-        </div>
-    </main>
-
-    <section class="experiencia" id="experiencia" aria-label="Experiência">
-        <h2 class="subtitulo">Experiência</h2>
-        <div>
-            <p class="experiencia-texto">Estudante de desenvolvimento front-end, utilizando <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>.</p>
-        
-            <div class="empresa">
-                <span class="empresa-ano">2010-2014</span>
-                <h3 class="empresa-titulo">Professor de Inglês</h3>
-                <span class="empresa-titulo">Autônomo</span>
-                <p class="empresa-texto">Aulas particulares de reforço e conversação. Alunos em sua maioria de Ensino Médio ou Superior.</p>
-                <ul class="empresa-habilidades">
-                    <li>Idiomas</li>
-                    <li>Inglês</li>
-                </ul>
-            </div>
-
-            <div class="empresa">
-                <span class="empresa-ano">2015-2017</span>
-                <h3 class="empresa-titulo">Técnico de Informática</h3>
-                <span class="empresa-titulo">Autônomo</span>
-                <p class="empresa-texto">Formatação e instalação de SO, backup de dados e instalação de programas.</p>
-                <ul class="empresa-habilidades">
-                    <li>Software</li>
-                    <li>Informática</li>
-                </ul>
-            </div>    
-        </div>
-    </section>
-
-    <section class="formacao" id="formacao" aria-label="Formação">
-        <div class="formacao-container">
-            <h2 class="subtitulo">Formação</h2>
-            <div>
-                <p class="formacao-texto">
-                    Formado e pós-graduado na área de <strong>Desenvolvimento de Jogos Digitais</strong>, no momento estou em transição de carreira para a área de <strong>Front-End</strong>.
-                </p>
-
-                <ul class="faculdade-lista">
-                    <li class="faculdade">
-                        <span class="faculdade-tipo">Tecnólogo</span>
-                        <h3 class="faculdade-curso">Tecnologia em Jogos Digitais</h3>
-                        <span class="faculdade-instituicao">Universidade Católica de Pernambuco</span>
-                    </li>
-
-                    <li class="faculdade">
-                        <span class="faculdade-tipo">Especialista</span>
-                        <h3 class="faculdade-curso">Especialização em Desenvolvimento de Games</h3>
-                        <span class="faculdade-instituicao">Universidade Anhembi Morumbi</span>
-                    </li>
-                </ul>
-
-                <div class="formacao-extra">
-                    <div class="cursos">
-                        <h3>Outros Cursos</h3>
-                        <ul>
-                            <li>Lógica de Programação - SENAC <span>40h</span></li>
-                            <li>Desenvolvimento Web <span>Cursando</span></li>
-                        </ul>
-                    </div>
-
-                    <div class="idiomas">
-                        <h3>Idiomas</h3>
-                        <ul>
-                            <li>Inglês <span>/ Avançado</span></li>
-                            <li>Espanhol <span>/ Intermediário</span></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="footer" id="contato">
-        <div class="footer-container">
-            <p class="footer-texto">Estou disponível para o mercado de trabalho. Entre em contato comigo.</p>
-            <ul class="footer-contato">
-                <li>wagner_prestrelo@hotmail.com</li>
-                <li>+55 (11) 93001-8280</li>
-                <li><a href="https://www.linkedin.com/in/wagnerprestrelo/" target="_blank">Linkedin</a></li>
+          <div class="idiomas">
+            <h3>Idiomas</h3>
+            <ul>
+              <li>Inglês <span>/ Avançado</span></li>
+              <li>Espanhol <span>/ Intermediário</span></li>
             </ul>
-            <p class="footer-copy">Todos os direitos reservados.</p>
+          </div>
         </div>
-    </footer>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="contato">
+    <div class="footer-container">
+      <p class="footer-texto">Estou disponível para o mercado de trabalho. Entre em contato comigo.</p>
+      <ul class="footer-contato">
+        <li>wagner_prestrelo@hotmail.com</li>
+        <li>+55 (11) 93001-8280</li>
+        <li><a href="https://www.linkedin.com/in/wagnerprestrelo/" target="_blank">Linkedin</a></li>
+      </ul>
+      <p class="footer-copy">Todos os direitos reservados.</p>
+    </div>
+  </footer>
 </body>
+
 </html>
